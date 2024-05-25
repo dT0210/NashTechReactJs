@@ -1,0 +1,62 @@
+.profile {
+    font-weight: bold;
+    text-align: left;
+}
+
+.counter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-button {
+    height: 30px;
+    width: 30px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.interests-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interests-list {
+    width: 30%;
+    text-align: left;
+}
+
+.pokemon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon {
+    text-align: left;
+    width: 20%;
+}
+
+.poke-button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    text-align: left;
+    width: 30%;
+}
+
+.form-error {
+    color: red;
+    font-size: small;
+}
